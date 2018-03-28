@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import Sidebar from '../components/Sidebar'
 import './index.css'
 
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet

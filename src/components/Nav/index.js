@@ -3,9 +3,30 @@ import Link from 'gatsby-link'
 
 const Nav = () => (
   <nav>
-    <Link to="/">Home</Link>
-    <Link to="/about/">About</Link>
-    <Link to="/contact/">Contact</Link>
+    <Link 
+      style={{
+        marginLeft: '2rem',
+      }} 
+      to="/"
+    >
+      Home
+    </Link>
+    <Link
+      style={{
+        marginLeft: '2rem',
+      }}
+      to="/about/"
+    >
+        About
+      </Link>
+    <Link 
+      style ={{
+        marginLeft: '2rem',
+      }}
+      to="/contact/"
+    >
+        Contact
+    </Link>
   </nav>
 )
 

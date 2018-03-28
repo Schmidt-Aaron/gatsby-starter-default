@@ -3,10 +3,18 @@ import Link from 'gatsby-link'
 import Nav from '../Nav'
 
 const Header = () => (
-  <header>
+  <header
+    style ={{
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      maxWidth: 1200,
+      margin: '0 auto',
+    }}
+  >
     <div
       style={{
-        margin: '0 auto',
+        
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
       }}
@@ -18,7 +26,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          My Awesome Site
         </Link>
       </h1>
     </div>
