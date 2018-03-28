@@ -9,13 +9,9 @@ import './index.css'
 
 
 const TemplateWrapper = ({ children }) => (
-  <div
-    style={{
-      minHeight: '100vh',
-    }}
-  >
+  <div>
     <Helmet
-      title="aaronms.com"
+      title="Aaron Schmidt's Personal Website"
       meta={[
         { name: 'Aaron Schmidt Personal Website', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },

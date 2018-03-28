@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'aaronms.com',
+    title: 'Aaron Schmidt\'s Personal Website',
     siteUrl: 'https://www.aaronms.com',
     description: 'Aaron Schmidt on the Web',
   },
