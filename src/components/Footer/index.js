@@ -4,7 +4,13 @@ import Link from 'gatsby-link'
 let year = (new Date()).getFullYear();
 
 const Footer = () => (  
-  <footer>
+  <footer
+    style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+    }}
+  >
     <p>
       Site By Aaron; Copyright {year}
     </p>

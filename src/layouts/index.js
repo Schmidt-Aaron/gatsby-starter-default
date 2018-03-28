@@ -9,26 +9,39 @@ import './index.css'
 
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div
+    style={{
+      minHeight: '100vh',
+    }}
+  >
     <Helmet
       title="aaronms.com"
       meta={[
-        { name: 'description', content: 'Sample' },
+        { name: 'Aaron Schmidt Personal Website', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
     <Header />
-    <div
+    <div 
+      className="main-container"
       style={{
+        display: 'flex',
         margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
+        justifyContent: 'space-between',
+        maxWidth: 1200,
       }}
     >
-      {children()}
+      <div
+        style={{
+          margin: '2rem',
+          padding: '0px 1.0875rem 1.45rem',
+          paddingTop: 0,
+        }}
+      >
+        {children()}
+      </div>
+      <Sidebar />
     </div>
-    <Sidebar />
     <Footer />
   </div>
 )

@@ -2,7 +2,11 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const Sidebar = () => (
-  <aside id="sidebar">
+  <aside id="sidebar"
+    style={{
+      margin: '2rem',
+    }}
+  >
     <section id="widget_1">
       <h2 className="sidebar--widget-title">
         Sidebar Title goes here
