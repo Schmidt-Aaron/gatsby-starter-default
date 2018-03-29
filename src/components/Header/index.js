@@ -10,7 +10,6 @@ const Header = () => (
       justifyContent: 'space-between',
       maxWidth: 1200,
       margin: '0 auto',
-      position: 'fixed',
     }}
   >
     <div
