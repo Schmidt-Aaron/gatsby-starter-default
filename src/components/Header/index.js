@@ -10,6 +10,7 @@ const Header = () => (
       justifyContent: 'space-between',
       maxWidth: 1200,
       margin: '0 auto',
+      position: 'fixed',
     }}
   >
     <div
@@ -25,7 +26,12 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          My Awesome Site
+          My Awesome<sup><a href="#" data-tooltip="Well, my mom thinks it is pretty cool..."
+          style={{
+            textDecoration: 'None',
+          }}
+          className="tooltip-bottom"
+          >*</a></sup> Site
         </Link>
       </h1>
     </div>

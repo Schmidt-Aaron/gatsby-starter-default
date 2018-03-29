@@ -9,15 +9,15 @@ const Sidebar = () => (
   >
     <section id="widget_1">
       <h2 className="sidebar--widget-title">
-        Sidebar Title goes here
+        About Me
       </h2>
-      <p>lorem Ipsum and other text can go here</p>
+      <p>Are you curious yet? <Link to="/about">Learn more</Link></p>
     </section>
     <section id="widget_2">
       <h2 className="sidebar--widget-title">
-        Sidebar Title
+        Another Sidebar Title
       </h2>
-      <p>lorem Ipsum</p>
+      <p>lorem Ipsum and etc here</p>
     </section>
     
   </aside>  
